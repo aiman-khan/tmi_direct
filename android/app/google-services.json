@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1061909106341",
+    "project_id": "tmudirect-14716",
+    "storage_bucket": "tmudirect-14716.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061909106341:android:ed216828906734f44b874c",
+        "android_client_info": {
+          "package_name": "com.example.tmu_direct"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061909106341-h7k5la8pcukpchdtpne2gl7v63k6115n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPFdH5W5c0dwUKN-azn8zklIAsDys7RqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061909106341-h7k5la8pcukpchdtpne2gl7v63k6115n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

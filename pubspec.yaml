@@ -1,0 +1,63 @@
+name: tmu_direct
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.1.0
+  firebase_auth: ^3.1.0
+  firebase_core: ^1.5.0
+  cloud_firestore: ^3.4.3
+  firebase_database: ^7.2.0
+  firebase_storage: ^10.0.3
+  fluttertoast: ^8.0.9
+  image_picker: ^0.8.5
+  path_provider: ^2.0.11
+  image_cropper: ^2.0.3
+  permission_handler: ^9.2.0
+  flutter_easyloading: ^3.0.5
+  modal_progress_hud_nsn: ^0.1.0-nullsafety-0
+  uuid: ^3.0.5
+  file_picker: ^4.6.1
+  audioplayers: ^1.0.1
+  miniplayer: ^1.0.1
+  path: ^1.8.1
+  get: ^4.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - asset/image/
+
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: asset/font/Rubik-Regular.ttf
+        - asset: asset/font/Rubik-Medium.ttf
+          weight: 500
+        - asset: asset/font/Rubik-SemiBold.ttf
+          weight: 600
+        - asset: asset/font/Rubik-Bold.ttf
+          weight: 700
+    - family: RozhaOne
+      fonts:
+        - asset: asset/font/RozhaOne-Regular.ttf
